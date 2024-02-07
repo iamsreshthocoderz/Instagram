@@ -24,7 +24,7 @@
                 <div class="nav-item">
                     <img src="img/home.PNG" class="icon" alt="">
                     <img src="img/messenger.PNG" class="icon" alt="">
-                    <img src="img/add.PNG" class="icon" alt="">
+                    <img data-bs-toggle="modal" data-bs-target="post-add-modal" src="img/add.PNG" class="icon" alt="">
                     <img src="img/explore.PNG" class="icon" alt="">
                     <img src="img/like.PNG" class="icon" alt="">
                    <div class="icon user-profile"></div>
@@ -138,6 +138,52 @@
         <!-- sidebar end -->
     </section>
     <!--  Section end -->
+
+    <!-- create post modal -->
+        <div class="modal fade" id="post-add-modal">
+            <div class="modal-dialog modal-doalog-centered">
+                <div>
+                    <div class="modal-body">
+                        <h2>Create Post</h2>
+                        <hr>
+                        <div class="msg"></div>
+                        <form action="" id="post_add_form">
+                            <div class="my-3">
+                                <label for="">Author name</label>
+                                <input name="aname" type="text" id="" class="from-control">
+
+                            </div>
+                            <div class="my-3">
+                                <label for="">Author Profile Photo</label>
+                                <input name="aphoto" type="text" id="" class="from-control">
+
+                            </div>
+                            <div class="my-3">
+                                <label for="">Post Contant</label>
+                                <input name="pcontant" type="text" id="" class="from-control">
+
+                            </div>
+                            <div class="my-3">
+                                <label for="">Post Photo</label>
+                                <input name="pphoto" type="text" id="" class="from-control">
+
+                            </div>
+                            <div class="my-3">
+                                <label for="">Please Mention Your Post Date</label>
+                                <input name="pdate" type="date" id="" class="from-control">
+
+                            </div>
+                            <div class="my-3">
+                        
+                                <input name="pdate" type="submit" id="" class="from-control  w-100" value="Create post">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- create post modal end -->
 
     <script src="js/function.js"></script>
     <script src="js/main.js"></script>
