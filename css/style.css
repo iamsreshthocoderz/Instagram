@@ -37,21 +37,20 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .ins-img{
     height: 100%;
     margin-top: 7px;
-    margin-left: 425px;
+    margin-left: 225px;
 }
 
 .search-box{
     position: absolute;
     left: 50%;
-    transform: translateX(-58%);
+    transform: translateX(-75%);
     width: 200px;
-    height: 25px;
+    height: 20px;
     background: #fafafa;
     border: 1px solid #dfdfdf;
     border-radius: 2px;
@@ -61,4 +60,25 @@ body{
     margin-top: 7px;
 
 
+}
+
+.search-box::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-items{
+    height: 22px;
+    position: relative;
+    margin-right: -65px;
+
+
+}
+
+.icon{
+    height: 30px;
+    cursor: pointer;
+    margin: -7px 10px;
+    display: inline-block;
+    justify-content: space-between; 
+    
 }
