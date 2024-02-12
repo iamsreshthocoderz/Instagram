@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,14 +9,16 @@
 *:focus{
     outline: none;
 }
+
 body{
     width: 100%;
     background: #fafafa;
     position: relative;
     font-family: 'roboto', sans-serif;
-
 }
 
+
+/* Navbar Start */
 .navbar{
     position: fixed;
     top: 0;
@@ -42,24 +44,22 @@ body{
 .ins-img{
     height: 100%;
     margin-top: 7px;
-    margin-left: 225px;
+    margin-left: 400px;
 }
 
 .search-box{
     position: absolute;
     left: 50%;
-    transform: translateX(-75%);
+    transform: translateX(-65%);
     width: 200px;
-    height: 20px;
+    height: 25px;
     background: #fafafa;
     border: 1px solid #dfdfdf;
     border-radius: 2px;
-    color: rgba(0, 0, 0,0.5);
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
     text-transform: capitalize;
     margin-top: 7px;
-
-
 }
 
 .search-box::placeholder{
@@ -70,15 +70,12 @@ body{
     height: 22px;
     position: relative;
     margin-right: -65px;
-
-
 }
 
 .icon{
-    height: 30px;
+    height: 100%;
     cursor: pointer;
     margin: -7px 10px;
     display: inline-block;
-    justify-content: space-between; 
-    
 }
+/*  */
